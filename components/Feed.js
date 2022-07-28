@@ -34,8 +34,8 @@ function Feed() {
         (snapshot) => {
           setPosts(snapshot.docs);
         }
-      ),
-    [db]
+      )
+    // [db]
   );
 
   return (
